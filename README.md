@@ -118,6 +118,24 @@ Detailed calculations and TShark commands are in `docs/analysis-report.md` and `
 │   ├── ngap_capture.pcap.pcap
 │   └── README.md
 ├── results/
+│   ├── 01_amf_ngap_config.png
+│   ├── 02_gnb_console_ng_setup.png
+│   ├── 03_ue_console_full_attach.png
+│   ├── 04_wireshark_ngap_filtered_list.png
+│   ├── 05_ng_setup_request.png
+│   ├── 06_ng_setup_response.png
+│   ├── 07_initial_ue_message.png
+│   ├── 08_downlink_nas_auth_request.png
+│   ├── 09_uplink_nas_auth_response.png
+│   ├── 10_downlink_nas_smc.png
+│   ├── 11_uplink_nas_smc_complete.png
+│   ├── 12_initial_context_setup_request.png
+│   ├── 13_initial_context_setup_response.png
+│   ├── 14_pdu_session_resource_setup_request.png
+│   ├── 15_pdu_session_resource_setup_response.png
+│   ├── 16_protocol_hierarchy_ngap.png
+│   ├── 17_sctp_conversation_bytes.png
+│   ├── 18_tshark_volume_breakdown.png
 │   └── README.md
 ├── docs/
 │   ├── analysis-report.md
