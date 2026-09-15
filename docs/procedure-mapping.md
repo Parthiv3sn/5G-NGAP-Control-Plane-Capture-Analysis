@@ -10,7 +10,7 @@
 
 **Frame:** 41
 
-`InitialUEMessage` carries initial UE-associated signalling from the gNB to the AMF and starts UE registration signalling at the AMF.
+`InitialUEMessage` carries the initial UE-associated signalling from the gNB to the AMF and starts the UE registration procedure at the AMF.
 
 ## 3. Authentication
 
@@ -22,7 +22,7 @@ The AMF sends an authentication request using `DownlinkNASTransport`; the UE res
 
 **Frames:** 44 → 45
 
-The AMF sends a Security Mode Command through `DownlinkNASTransport`. The UE returns completion through `UplinkNASTransport`.
+The AMF sends a Security Mode Command through `DownlinkNASTransport`. The UE returns the completion through `UplinkNASTransport`.
 
 ## 5. Initial UE Context Setup
 
@@ -34,7 +34,7 @@ The AMF sends a Security Mode Command through `DownlinkNASTransport`. The UE ret
 
 **Frame:** 49
 
-The capture shows uplink NAS signalling associated with registration completion and a PDU Session Establishment Request. Multiple NGAP/NAS messages can be carried in one SCTP packet, so packet count and message count are not necessarily identical.
+The capture shows uplink NAS signalling associated with registration completion and a PDU Session Establishment Request. Multiple NGAP/NAS messages can be carried in the same SCTP packet, so packet count and message count are not necessarily identical.
 
 ## 7. PDU Session Resource Setup
 
