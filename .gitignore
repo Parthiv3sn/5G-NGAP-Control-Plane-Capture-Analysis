@@ -1,0 +1,16 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary analysis output
+*.tmp
+*.log
+*.swp
+__pycache__/
+
+# Do not commit local simulator state or credentials
+.env
+*.key
+*.pem
